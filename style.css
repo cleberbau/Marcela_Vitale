@@ -1,0 +1,10 @@
+body{
+    text-align: center !important;
+    margin-top: 48px !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+    background: white !important;
+    background: fixed !important;
+    background: linear-gradient(#fae19c,#828383) !important;
+    background-attachment: fixed !important;
+    background-position: left !important;
+}

@@ -2,9 +2,22 @@ body{
     text-align: center !important;
     margin-top: 48px !important;
     font-family: Arial, Helvetica, sans-serif !important;
-    background: white !important;
+    /*background: white !important;
     background: fixed !important;
     background: linear-gradient(#fae19c,#828383) !important;
     background-attachment: fixed !important;
-    background-position: left !important;
+    background-position: left !important;*/
+    background-image: url("https://img.freepik.com/vetores-gratis/fundo-pastel-com-elementos-naturais_52683-45541.jpg?w=1380&t=st=1687895643~exp=1687896243~hmac=3a58f317b7fbdfae7858fa0c9095c3401df1d1c1de646c1b556f00a011721e79");
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+
 }
+
+@media only screen and (max-width: 480px) {
+    body {
+    background-image: url("https://i.postimg.cc/ZYpgZs9m/folha-mobile.png");
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-position: center;
+    background-size: cover; /* Resize the background image to cover the entire container */
+    }
+  }
